@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{9076e1b5-3837-6f8c-32ae-97104a393839}</ProjectGuid>
+    <ProjectGuid>{d5761377-05f6-a6d2-8160-352bdc5c5fbf}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp-Editor</AssemblyName>
@@ -269,19 +269,19 @@
         <HintPath>/Applications/Unity/Hub/Editor/2020.3.33f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Plastic.Newtonsoft.Json">
-        <HintPath>/Users/vinicius/Arquivos/Unity Development/GameDev/Defense Squad/Library/PackageCache/com.unity.collab-proxy@1.15.15/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll</HintPath>
+        <HintPath>/Users/vinicius/Arquivos/Unity Development/GameDev/Defense-Squad/Library/PackageCache/com.unity.collab-proxy@1.15.15/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Plastic.Antlr3.Runtime">
-        <HintPath>/Users/vinicius/Arquivos/Unity Development/GameDev/Defense Squad/Library/PackageCache/com.unity.collab-proxy@1.15.15/Lib/Editor/PlasticSCM/Unity.Plastic.Antlr3.Runtime.dll</HintPath>
+        <HintPath>/Users/vinicius/Arquivos/Unity Development/GameDev/Defense-Squad/Library/PackageCache/com.unity.collab-proxy@1.15.15/Lib/Editor/PlasticSCM/Unity.Plastic.Antlr3.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="unityplastic">
-        <HintPath>/Users/vinicius/Arquivos/Unity Development/GameDev/Defense Squad/Library/PackageCache/com.unity.collab-proxy@1.15.15/Lib/Editor/PlasticSCM/unityplastic.dll</HintPath>
+        <HintPath>/Users/vinicius/Arquivos/Unity Development/GameDev/Defense-Squad/Library/PackageCache/com.unity.collab-proxy@1.15.15/Lib/Editor/PlasticSCM/unityplastic.dll</HintPath>
     </Reference>
     <Reference Include="log4netPlastic">
-        <HintPath>/Users/vinicius/Arquivos/Unity Development/GameDev/Defense Squad/Library/PackageCache/com.unity.collab-proxy@1.15.15/Lib/Editor/PlasticSCM/log4netPlastic.dll</HintPath>
+        <HintPath>/Users/vinicius/Arquivos/Unity Development/GameDev/Defense-Squad/Library/PackageCache/com.unity.collab-proxy@1.15.15/Lib/Editor/PlasticSCM/log4netPlastic.dll</HintPath>
     </Reference>
     <Reference Include="nunit.framework">
-        <HintPath>/Users/vinicius/Arquivos/Unity Development/GameDev/Defense Squad/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll</HintPath>
+        <HintPath>/Users/vinicius/Arquivos/Unity Development/GameDev/Defense-Squad/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll</HintPath>
     </Reference>
     <Reference Include="mscorlib">
         <HintPath>/Applications/Unity/Hub/Editor/2020.3.33f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>
@@ -632,51 +632,51 @@
         <HintPath>/Applications/Unity/Hub/Editor/2020.3.33f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/netstandard.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.TestRunner">
-        <HintPath>/Users/vinicius/Arquivos/Unity Development/GameDev/Defense Squad/Library/ScriptAssemblies/UnityEngine.TestRunner.dll</HintPath>
+        <HintPath>/Users/vinicius/Arquivos/Unity Development/GameDev/Defense-Squad/Library/ScriptAssemblies/UnityEngine.TestRunner.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.TestRunner">
-        <HintPath>/Users/vinicius/Arquivos/Unity Development/GameDev/Defense Squad/Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>
+        <HintPath>/Users/vinicius/Arquivos/Unity Development/GameDev/Defense-Squad/Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TerrainTools">
-        <HintPath>/Users/vinicius/Arquivos/Unity Development/GameDev/Defense Squad/Library/ScriptAssemblies/Unity.TerrainTools.dll</HintPath>
+        <HintPath>/Users/vinicius/Arquivos/Unity Development/GameDev/Defense-Squad/Library/ScriptAssemblies/Unity.TerrainTools.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
-        <HintPath>/Users/vinicius/Arquivos/Unity Development/GameDev/Defense Squad/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+        <HintPath>/Users/vinicius/Arquivos/Unity Development/GameDev/Defense-Squad/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TerrainTools.Editor">
-        <HintPath>/Users/vinicius/Arquivos/Unity Development/GameDev/Defense Squad/Library/ScriptAssemblies/Unity.TerrainTools.Editor.dll</HintPath>
+        <HintPath>/Users/vinicius/Arquivos/Unity Development/GameDev/Defense-Squad/Library/ScriptAssemblies/Unity.TerrainTools.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-        <HintPath>/Users/vinicius/Arquivos/Unity Development/GameDev/Defense Squad/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+        <HintPath>/Users/vinicius/Arquivos/Unity Development/GameDev/Defense-Squad/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualStudio.Editor">
-        <HintPath>/Users/vinicius/Arquivos/Unity Development/GameDev/Defense Squad/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll</HintPath>
+        <HintPath>/Users/vinicius/Arquivos/Unity Development/GameDev/Defense-Squad/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline.Editor">
-        <HintPath>/Users/vinicius/Arquivos/Unity Development/GameDev/Defense Squad/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+        <HintPath>/Users/vinicius/Arquivos/Unity Development/GameDev/Defense-Squad/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
-        <HintPath>/Users/vinicius/Arquivos/Unity Development/GameDev/Defense Squad/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+        <HintPath>/Users/vinicius/Arquivos/Unity Development/GameDev/Defense-Squad/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-        <HintPath>/Users/vinicius/Arquivos/Unity Development/GameDev/Defense Squad/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+        <HintPath>/Users/vinicius/Arquivos/Unity Development/GameDev/Defense-Squad/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
-        <HintPath>/Users/vinicius/Arquivos/Unity Development/GameDev/Defense Squad/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+        <HintPath>/Users/vinicius/Arquivos/Unity Development/GameDev/Defense-Squad/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Rider.Editor">
-        <HintPath>/Users/vinicius/Arquivos/Unity Development/GameDev/Defense Squad/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+        <HintPath>/Users/vinicius/Arquivos/Unity Development/GameDev/Defense-Squad/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-        <HintPath>/Users/vinicius/Arquivos/Unity Development/GameDev/Defense Squad/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+        <HintPath>/Users/vinicius/Arquivos/Unity Development/GameDev/Defense-Squad/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.PlasticSCM.Editor">
-        <HintPath>/Users/vinicius/Arquivos/Unity Development/GameDev/Defense Squad/Library/ScriptAssemblies/Unity.PlasticSCM.Editor.dll</HintPath>
+        <HintPath>/Users/vinicius/Arquivos/Unity Development/GameDev/Defense-Squad/Library/ScriptAssemblies/Unity.PlasticSCM.Editor.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp.csproj">
-      <Project>{91bc4b4f-271b-eb41-b2cb-2f4d9a67dcec}</Project>
+      <Project>{5fd3a234-0715-cb9e-a1f1-8f44d38a6ec4}</Project>
       <Name>Assembly-CSharp</Name>
     </ProjectReference>
   </ItemGroup>

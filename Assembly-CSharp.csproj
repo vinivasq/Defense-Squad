@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{91bc4b4f-271b-eb41-b2cb-2f4d9a67dcec}</ProjectGuid>
+    <ProjectGuid>{5fd3a234-0715-cb9e-a1f1-8f44d38a6ec4}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -39,14 +39,14 @@
      <Compile Include="Assets/Enviroment/Standard Assets/ParticleSystems/Scripts/ExplosionFireAndDebris.cs" />
      <Compile Include="Assets/Enviroment/Standard Assets/ParticleSystems/Scripts/AfterburnerPhysicsForce.cs" />
      <Compile Include="Assets/Enviroment/Standard Assets/ParticleSystems/Scripts/ExplosionPhysicsForce.cs" />
+     <Compile Include="Assets/StarSparrow/Readme/Readme Files/Scripts/ReadmeStarSparrow.cs" />
      <Compile Include="Assets/Enviroment/Standard Assets/ParticleSystems/Scripts/SmokeParticles.cs" />
      <Compile Include="Assets/Enviroment/Standard Assets/ParticleSystems/Scripts/FireLight.cs" />
      <Compile Include="Assets/Enviroment/Standard Assets/ParticleSystems/Scripts/ExtinguishableParticleSystem.cs" />
+     <Compile Include="Assets/Scripts/PlayerControls.cs" />
      <Compile Include="Assets/Enviroment/Standard Assets/ParticleSystems/Scripts/ParticleSystemMultiplier.cs" />
      <Compile Include="Assets/Enviroment/Standard Assets/ParticleSystems/Scripts/WaterHoseParticles.cs" />
      <Compile Include="Assets/Enviroment/Standard Assets/ParticleSystems/Scripts/Hose.cs" />
-     <Compile Include="Assets/StarSparrow/Readme/Readme Files/Scripts/ReadmeStarSparrow.cs" />
-     <Compile Include="Assets/Scripts/PlayerControls.cs" />
      <None Include="Assets/Enviroment/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/ThirdPartyNotices.txt" />
      <None Include="Assets/StarSparrow/UpgradeHDRP/UpgradeHDRP.txt" />
      <None Include="Assets/Enviroment/Standard Assets/ParticleSystems/ParticleSystemsGuidelines.txt" />
@@ -621,40 +621,40 @@
         <HintPath>/Applications/Unity/Hub/Editor/2020.3.33f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netfx/mscorlib.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TerrainTools">
-        <HintPath>/Users/vinicius/Arquivos/Unity Development/GameDev/Defense Squad/Library/ScriptAssemblies/Unity.TerrainTools.dll</HintPath>
+        <HintPath>/Users/vinicius/Arquivos/Unity Development/GameDev/Defense-Squad/Library/ScriptAssemblies/Unity.TerrainTools.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
-        <HintPath>/Users/vinicius/Arquivos/Unity Development/GameDev/Defense Squad/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+        <HintPath>/Users/vinicius/Arquivos/Unity Development/GameDev/Defense-Squad/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TerrainTools.Editor">
-        <HintPath>/Users/vinicius/Arquivos/Unity Development/GameDev/Defense Squad/Library/ScriptAssemblies/Unity.TerrainTools.Editor.dll</HintPath>
+        <HintPath>/Users/vinicius/Arquivos/Unity Development/GameDev/Defense-Squad/Library/ScriptAssemblies/Unity.TerrainTools.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-        <HintPath>/Users/vinicius/Arquivos/Unity Development/GameDev/Defense Squad/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+        <HintPath>/Users/vinicius/Arquivos/Unity Development/GameDev/Defense-Squad/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualStudio.Editor">
-        <HintPath>/Users/vinicius/Arquivos/Unity Development/GameDev/Defense Squad/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll</HintPath>
+        <HintPath>/Users/vinicius/Arquivos/Unity Development/GameDev/Defense-Squad/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline.Editor">
-        <HintPath>/Users/vinicius/Arquivos/Unity Development/GameDev/Defense Squad/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+        <HintPath>/Users/vinicius/Arquivos/Unity Development/GameDev/Defense-Squad/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
-        <HintPath>/Users/vinicius/Arquivos/Unity Development/GameDev/Defense Squad/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+        <HintPath>/Users/vinicius/Arquivos/Unity Development/GameDev/Defense-Squad/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-        <HintPath>/Users/vinicius/Arquivos/Unity Development/GameDev/Defense Squad/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+        <HintPath>/Users/vinicius/Arquivos/Unity Development/GameDev/Defense-Squad/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
-        <HintPath>/Users/vinicius/Arquivos/Unity Development/GameDev/Defense Squad/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+        <HintPath>/Users/vinicius/Arquivos/Unity Development/GameDev/Defense-Squad/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Rider.Editor">
-        <HintPath>/Users/vinicius/Arquivos/Unity Development/GameDev/Defense Squad/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+        <HintPath>/Users/vinicius/Arquivos/Unity Development/GameDev/Defense-Squad/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-        <HintPath>/Users/vinicius/Arquivos/Unity Development/GameDev/Defense Squad/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+        <HintPath>/Users/vinicius/Arquivos/Unity Development/GameDev/Defense-Squad/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.PlasticSCM.Editor">
-        <HintPath>/Users/vinicius/Arquivos/Unity Development/GameDev/Defense Squad/Library/ScriptAssemblies/Unity.PlasticSCM.Editor.dll</HintPath>
+        <HintPath>/Users/vinicius/Arquivos/Unity Development/GameDev/Defense-Squad/Library/ScriptAssemblies/Unity.PlasticSCM.Editor.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
