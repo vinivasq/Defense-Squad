@@ -7,15 +7,41 @@ public class PlayerControls : MonoBehaviour
     [SerializeField] float xAccel = 60f; 
     [SerializeField] float yAccel = 60f;
     [SerializeField] float xRange = 15f;
-    [SerializeField] float yRange = 15f;
+    [SerializeField] float yRange = 13f;
+    [SerializeField] float positionPitchFactor = -2f;
+    [SerializeField] float controlPitchFactor = -15f;
+    [SerializeField] float positionYawFactor = 2f;
+    [SerializeField] float controlRollFactor = -15f;
+
+    float xThrow, yThrow;
 
     void Update()
     {
-        float xThrow = Input.GetAxis("Horizontal");
-        float yThrow = Input.GetAxis("Vertical");
+        ProcessTranslation();
+        ProcessRotaion();
 
-        float xOffset = xThrow *Time.deltaTime * xAccel;
-        float yOffset = yThrow *Time.deltaTime * yAccel;
+    }
+
+    void ProcessRotaion ()
+    {
+        float pitchFromPosition = transform.localPosition.y * positionPitchFactor;
+        float pitchFromControlThrow = yThrow * controlPitchFactor;
+
+        float pitch = pitchFromPosition + pitchFromControlThrow;
+        float yaw = transform.localPosition.x * positionYawFactor;
+        float roll = xThrow * controlRollFactor;
+
+        transform.localRotation = Quaternion.Euler(pitch, yaw, roll);
+
+    }
+
+    void ProcessTranslation()
+    {
+        xThrow = Input.GetAxis("Horizontal");
+        yThrow = Input.GetAxis("Vertical");
+
+        float xOffset = xThrow * Time.deltaTime * xAccel;
+        float yOffset = yThrow * Time.deltaTime * yAccel;
         float zOffset = 0;
 
         float xPosition = transform.localPosition.x + xOffset;
@@ -26,9 +52,6 @@ public class PlayerControls : MonoBehaviour
 
         float zPosition = transform.localPosition.z + zOffset;
 
-        transform.localPosition = new Vector3 (clampedxPos, clampedyPos, zPosition);
-
-
-
+        transform.localPosition = new Vector3(clampedxPos, clampedyPos, zPosition);
     }
 }
