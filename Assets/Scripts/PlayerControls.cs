@@ -6,8 +6,8 @@ public class PlayerControls : MonoBehaviour
 {
     [SerializeField] float xAccel = 60f; 
     [SerializeField] float yAccel = 60f;
-    [SerializeField] float xRange = 15f;
-    [SerializeField] float yRange = 13f;
+    [SerializeField] float xRange = 26f;
+    [SerializeField] float yRange = 17f;
     [SerializeField] float positionPitchFactor = -2f;
     [SerializeField] float controlPitchFactor = -15f;
     [SerializeField] float positionYawFactor = 2f;
@@ -19,6 +19,7 @@ public class PlayerControls : MonoBehaviour
     {
         ProcessTranslation();
         ProcessRotaion();
+        ProcessShooting();
 
     }
 
@@ -54,4 +55,17 @@ public class PlayerControls : MonoBehaviour
 
         transform.localPosition = new Vector3(clampedxPos, clampedyPos, zPosition);
     }
+
+    void ProcessShooting ()
+    {
+        if (Input.GetButton("Fire1"))
+        {
+            Debug.Log("shooting!!");
+        }
+        else
+        {
+            Debug.Log("not shooting");
+        }
+    }
+
 }
