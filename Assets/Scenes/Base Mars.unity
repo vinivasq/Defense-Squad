@@ -1286,6 +1286,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 1f7aa4d40edff6e48b549003cad031e1, type: 3}
   m_PrefabInstance: {fileID: 1930359477}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &403775698 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8962100596170514805, guid: bf62f98858f0c4ad998dec4dbeb708d2, type: 3}
+  m_PrefabInstance: {fileID: 9107556519494012921}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &453913207
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1809,6 +1814,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8192106632756464911, guid: 668d533b4cc604279955870abf757506, type: 3}
   m_PrefabInstance: {fileID: 203019167}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &558096662 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2317929468708512379, guid: bf62f98858f0c4ad998dec4dbeb708d2, type: 3}
+  m_PrefabInstance: {fileID: 9107556519494012921}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &600037015
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1985,7 +1995,7 @@ TerrainCollider:
   m_Material: {fileID: 0}
   m_Enabled: 1
   m_TerrainData: {fileID: 15600000, guid: 53fb8fe22cf424a42b113926549415ca, type: 2}
-  m_EnableTreeColliders: 1
+  m_EnableTreeColliders: 0
 --- !u!218 &613040313
 Terrain:
   m_ObjectHideFlags: 0
@@ -2135,7 +2145,7 @@ TerrainCollider:
   m_Material: {fileID: 0}
   m_Enabled: 1
   m_TerrainData: {fileID: 15600000, guid: 1434a720c8d244481867c09a1878f2c1, type: 2}
-  m_EnableTreeColliders: 1
+  m_EnableTreeColliders: 0
 --- !u!218 &647752512
 Terrain:
   m_ObjectHideFlags: 0
@@ -2393,7 +2403,7 @@ TerrainCollider:
   m_Material: {fileID: 0}
   m_Enabled: 1
   m_TerrainData: {fileID: 15600000, guid: acac0986499924fc7954d33fae278ec3, type: 2}
-  m_EnableTreeColliders: 1
+  m_EnableTreeColliders: 0
 --- !u!218 &784850347
 Terrain:
   m_ObjectHideFlags: 0
@@ -2992,7 +3002,7 @@ TerrainCollider:
   m_Material: {fileID: 0}
   m_Enabled: 1
   m_TerrainData: {fileID: 15600000, guid: de19b2194da0947ce98eeb2594ad0f60, type: 2}
-  m_EnableTreeColliders: 1
+  m_EnableTreeColliders: 0
 --- !u!218 &1182564143
 Terrain:
   m_ObjectHideFlags: 0
@@ -3567,7 +3577,7 @@ TerrainCollider:
   m_Material: {fileID: 0}
   m_Enabled: 1
   m_TerrainData: {fileID: 15600000, guid: b7db647eee7574f6c8d1e71ed93906e5, type: 2}
-  m_EnableTreeColliders: 1
+  m_EnableTreeColliders: 0
 --- !u!218 &1524232198
 Terrain:
   m_ObjectHideFlags: 0
@@ -4027,7 +4037,7 @@ TerrainCollider:
   m_Material: {fileID: 0}
   m_Enabled: 1
   m_TerrainData: {fileID: 15600000, guid: 4fe1fb43e568644249969d23e7e1a216, type: 2}
-  m_EnableTreeColliders: 1
+  m_EnableTreeColliders: 0
 --- !u!218 &1643413580
 Terrain:
   m_ObjectHideFlags: 0
@@ -4182,7 +4192,7 @@ TerrainCollider:
   m_Material: {fileID: 0}
   m_Enabled: 1
   m_TerrainData: {fileID: 15600000, guid: a96fe8b98059f4a20a3b912df0b757e2, type: 2}
-  m_EnableTreeColliders: 1
+  m_EnableTreeColliders: 0
 --- !u!218 &1729563089
 Terrain:
   m_ObjectHideFlags: 0
@@ -4258,7 +4268,7 @@ TerrainCollider:
   m_Material: {fileID: 0}
   m_Enabled: 1
   m_TerrainData: {fileID: 15600000, guid: 4340c2b4c339c45d2a7be5ebfc2c19a3, type: 2}
-  m_EnableTreeColliders: 1
+  m_EnableTreeColliders: 0
 --- !u!218 &1746799322
 Terrain:
   m_ObjectHideFlags: 0
@@ -5323,7 +5333,7 @@ TerrainCollider:
   m_Material: {fileID: 0}
   m_Enabled: 1
   m_TerrainData: {fileID: 15600000, guid: 20b359eb9b8204d1898288a040357fa0, type: 2}
-  m_EnableTreeColliders: 1
+  m_EnableTreeColliders: 0
 --- !u!218 &2021791808
 Terrain:
   m_ObjectHideFlags: 0
@@ -5484,6 +5494,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 928581195415677182, guid: bf62f98858f0c4ad998dec4dbeb708d2, type: 3}
+      propertyPath: lasers.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 928581195415677182, guid: bf62f98858f0c4ad998dec4dbeb708d2, type: 3}
+      propertyPath: lasers.Array.data[0]
+      value: 
+      objectReference: {fileID: 558096662}
+    - target: {fileID: 928581195415677182, guid: bf62f98858f0c4ad998dec4dbeb708d2, type: 3}
+      propertyPath: lasers.Array.data[1]
+      value: 
+      objectReference: {fileID: 403775698}
     - target: {fileID: 9107556519956602153, guid: bf62f98858f0c4ad998dec4dbeb708d2, type: 3}
       propertyPath: m_Name
       value: Player Rig

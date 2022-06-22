@@ -1,17 +1,30 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class PlayerControls : MonoBehaviour
 {
-    [SerializeField] float xAccel = 60f; 
-    [SerializeField] float yAccel = 60f;
+    [Header ("General Movemet Settings")]
+    [Tooltip ("Speed factor for how fast the ship moves based uppon player input")]
+    [SerializeField] float controlSpeed = 60f; 
+    [Tooltip("Screen limits for how far the ship goes on the X axis ")]
     [SerializeField] float xRange = 26f;
+    [Tooltip("Screen limits for how far the ship goes on the Y axis ")]
     [SerializeField] float yRange = 17f;
+
+    [Header ("Ship Rotation Settings")]
+    [Tooltip("Pitch factor based on the ship position")]
     [SerializeField] float positionPitchFactor = -2f;
+    [Tooltip("Pitch factor based on player input")]
     [SerializeField] float controlPitchFactor = -15f;
+    [Tooltip("Yaw factor based on the ship position")]
     [SerializeField] float positionYawFactor = 2f;
+    [Tooltip("Roll factor based on player input")]
     [SerializeField] float controlRollFactor = -15f;
+    
+    [Header ("Lasers Placeholder")]
+    [SerializeField] GameObject[] lasers;
 
     float xThrow, yThrow;
 
@@ -33,7 +46,6 @@ public class PlayerControls : MonoBehaviour
         float roll = xThrow * controlRollFactor;
 
         transform.localRotation = Quaternion.Euler(pitch, yaw, roll);
-
     }
 
     void ProcessTranslation()
@@ -41,8 +53,8 @@ public class PlayerControls : MonoBehaviour
         xThrow = Input.GetAxis("Horizontal");
         yThrow = Input.GetAxis("Vertical");
 
-        float xOffset = xThrow * Time.deltaTime * xAccel;
-        float yOffset = yThrow * Time.deltaTime * yAccel;
+        float xOffset = xThrow * Time.deltaTime * controlSpeed;
+        float yOffset = yThrow * Time.deltaTime * controlSpeed;
         float zOffset = 0;
 
         float xPosition = transform.localPosition.x + xOffset;
@@ -60,11 +72,21 @@ public class PlayerControls : MonoBehaviour
     {
         if (Input.GetButton("Fire1"))
         {
-            Debug.Log("shooting!!");
+            SetLasersActvie(true);
         }
         else
         {
-            Debug.Log("not shooting");
+            SetLasersActvie(false);
+        }
+    }
+
+    void SetLasersActvie(bool isActive)
+    {
+        foreach (GameObject laser in lasers)
+        {
+            var emissionModule = laser.GetComponent<ParticleSystem>().emission;
+            emissionModule.enabled = isActive;
+
         }
     }
 
