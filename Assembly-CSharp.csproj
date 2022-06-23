@@ -47,6 +47,7 @@
      <Compile Include="Assets/Enviroment/Standard Assets/ParticleSystems/Scripts/ParticleSystemMultiplier.cs" />
      <Compile Include="Assets/Enviroment/Standard Assets/ParticleSystems/Scripts/WaterHoseParticles.cs" />
      <Compile Include="Assets/Enviroment/Standard Assets/ParticleSystems/Scripts/Hose.cs" />
+     <Compile Include="Assets/Scripts/CollisionHandler.cs" />
      <None Include="Assets/Enviroment/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/ThirdPartyNotices.txt" />
      <None Include="Assets/StarSparrow/UpgradeHDRP/UpgradeHDRP.txt" />
      <None Include="Assets/Enviroment/Standard Assets/ParticleSystems/ParticleSystemsGuidelines.txt" />
