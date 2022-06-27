@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -5,17 +6,25 @@ using UnityEngine.SceneManagement;
 
 public class CollisionHandler : MonoBehaviour
 {
-
-    void OnCollisionEnter(Collision other) 
-    {
-        Debug.Log($"{this.name} ---Collided with--- {other.gameObject.name}");
-    }
-
+    float delaySceneManager = 1f;
+    
     void OnTriggerEnter(Collider other) 
     {
-        Debug.Log($"{this.name} ***Triggered*** {other.gameObject.name}");
-        SceneManager.LoadScene(0);
+        StartCrashSequence();
+    }
 
+    void StartCrashSequence()
+    {
+        GetComponent<PlayerControls>().enabled = false;
+        Invoke ("ReloadLevel", delaySceneManager);
+
+    }
+
+    void ReloadLevel ()
+    {
+        int currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
+
+        SceneManager.LoadScene(currentSceneIndex);
     }
 
 }
