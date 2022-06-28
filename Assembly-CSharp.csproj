@@ -36,12 +36,18 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
+     <Compile Include="Assets/EffectExamples/Shared/Scripts/ExtinguishableFire.cs" />
+     <Compile Include="Assets/EffectExamples/Shared/Scripts/ParticleMenu.cs" />
      <Compile Include="Assets/Enviroment/Standard Assets/ParticleSystems/Scripts/ExplosionFireAndDebris.cs" />
      <Compile Include="Assets/Enviroment/Standard Assets/ParticleSystems/Scripts/AfterburnerPhysicsForce.cs" />
      <Compile Include="Assets/Enviroment/Standard Assets/ParticleSystems/Scripts/ExplosionPhysicsForce.cs" />
+     <Compile Include="Assets/EffectExamples/Shared/Scripts/DecalDestroyer.cs" />
      <Compile Include="Assets/StarSparrow/Readme/Readme Files/Scripts/ReadmeStarSparrow.cs" />
      <Compile Include="Assets/Enviroment/Standard Assets/ParticleSystems/Scripts/SmokeParticles.cs" />
+     <Compile Include="Assets/EffectExamples/Shared/Scripts/ParticleExamples.cs" />
      <Compile Include="Assets/Enviroment/Standard Assets/ParticleSystems/Scripts/FireLight.cs" />
+     <Compile Include="Assets/EffectExamples/Shared/Scripts/ParticleCollision.cs" />
+     <Compile Include="Assets/EffectExamples/Shared/Scripts/GunShoot.cs" />
      <Compile Include="Assets/Enviroment/Standard Assets/ParticleSystems/Scripts/ExtinguishableParticleSystem.cs" />
      <Compile Include="Assets/Scripts/PlayerControls.cs" />
      <Compile Include="Assets/Enviroment/Standard Assets/ParticleSystems/Scripts/ParticleSystemMultiplier.cs" />
@@ -49,13 +55,8 @@
      <Compile Include="Assets/Scripts/CollisionHandler.cs" />
      <Compile Include="Assets/Scripts/Enemy.cs" />
      <Compile Include="Assets/Enviroment/Standard Assets/ParticleSystems/Scripts/Hose.cs" />
-     <Compile Include="Assets/EffectExamples/Shared/Scripts/ExtinguishableFire.cs" />
-     <Compile Include="Assets/EffectExamples/Shared/Scripts/DecalDestroyer.cs" />
-     <Compile Include="Assets/EffectExamples/Shared/Scripts/ParticleCollision.cs" />
-     <Compile Include="Assets/EffectExamples/Shared/Scripts/GunShoot.cs" />
      <Compile Include="Assets/EffectExamples/Shared/Scripts/GunAim.cs" />
-     <Compile Include="Assets/EffectExamples/Shared/Scripts/ParticleExamples.cs" />
-     <Compile Include="Assets/EffectExamples/Shared/Scripts/ParticleMenu.cs" />
+     <Compile Include="Assets/Scripts/SelfDestruct.cs" />
      <None Include="Assets/Enviroment/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/ThirdPartyNotices.txt" />
      <None Include="Assets/StarSparrow/UpgradeHDRP/UpgradeHDRP.txt" />
      <None Include="Assets/Enviroment/Standard Assets/ParticleSystems/ParticleSystemsGuidelines.txt" />

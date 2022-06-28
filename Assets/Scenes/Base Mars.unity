@@ -315,7 +315,7 @@ Transform:
   m_Children:
   - {fileID: 453913208}
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &62500761
 PrefabInstance:
@@ -391,6 +391,36 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 7125177988340774128, guid: 71c58b72eff5848b3b4e2897ef6fda92, type: 3}
   m_PrefabInstance: {fileID: 62500761}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &66994976
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 66994977}
+  m_Layer: 0
+  m_Name: Runtime Spawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &66994977
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 66994976}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -30.163834, y: 84.6385, z: 664.29877}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &82836110
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -727,6 +757,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ae276ea19bf6940c9b1f6215b2de7b70, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  enemyCrashVFX: {fileID: 52431495769052739, guid: 7038d2dfd51664a718faf9a3a7aa4621, type: 3}
+  parent: {fileID: 66994977}
 --- !u!65 &150238272
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2387,7 +2419,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
 --- !u!4 &662399586 stripped
 Transform:
@@ -3392,6 +3424,11 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!198 &1391641963 stripped
+ParticleSystem:
+  m_CorrespondingSourceObject: {fileID: 5401718739951363998, guid: bf62f98858f0c4ad998dec4dbeb708d2, type: 3}
+  m_PrefabInstance: {fileID: 9107556519494012921}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1412903225 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4605212650260977263, guid: 719667f2035d442a8b6fc78d6a10a7fa, type: 3}
@@ -3433,7 +3470,7 @@ Transform:
   - {fileID: 647752513}
   - {fileID: 784850348}
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1432320802
 PrefabInstance:
@@ -3733,6 +3770,25 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 7537682207299493718, guid: 440ddc44bdac1465b9960626412666aa, type: 3}
   m_PrefabInstance: {fileID: 17470926}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1539704777 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1570034556958308, guid: dae7a3955bbf76e409d09988296acacb, type: 3}
+  m_PrefabInstance: {fileID: 453913207}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1539704780
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1539704777}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae276ea19bf6940c9b1f6215b2de7b70, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemyCrashVFX: {fileID: 52431495769052739, guid: 7038d2dfd51664a718faf9a3a7aa4621, type: 3}
+  parent: {fileID: 66994977}
 --- !u!1001 &1550092670
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4609,7 +4665,7 @@ Transform:
   - {fileID: 1911993381}
   - {fileID: 664696007}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &1899044168 stripped
 Transform:
@@ -5519,7 +5575,7 @@ Transform:
   - {fileID: 1792827468}
   - {fileID: 131221449}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &2119366168
 PrefabInstance:
@@ -5602,6 +5658,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 686427994483923797, guid: bf62f98858f0c4ad998dec4dbeb708d2, type: 3}
+      propertyPath: looping
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 686427994483923797, guid: bf62f98858f0c4ad998dec4dbeb708d2, type: 3}
+      propertyPath: lengthInSec
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 809043645868694261, guid: bf62f98858f0c4ad998dec4dbeb708d2, type: 3}
+      propertyPath: m_Name
+      value: Player ExplosionEffect
+      objectReference: {fileID: 0}
     - target: {fileID: 827014420231068976, guid: bf62f98858f0c4ad998dec4dbeb708d2, type: 3}
       propertyPath: m_Materials.Array.size
       value: 1
@@ -5698,6 +5766,10 @@ PrefabInstance:
       propertyPath: CollisionModule.m_Bounce.minMaxState
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3027757631317611032, guid: bf62f98858f0c4ad998dec4dbeb708d2, type: 3}
+      propertyPath: crashVFX
+      value: 
+      objectReference: {fileID: 1391641963}
     - target: {fileID: 8962100596170514805, guid: bf62f98858f0c4ad998dec4dbeb708d2, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 0
@@ -5708,7 +5780,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9107556519956602155, guid: bf62f98858f0c4ad998dec4dbeb708d2, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 9107556519956602155, guid: bf62f98858f0c4ad998dec4dbeb708d2, type: 3}
       propertyPath: m_LocalPosition.x
