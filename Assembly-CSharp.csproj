@@ -36,6 +36,7 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
+     <Compile Include="Assets/Scripts/SelfDestruct.cs" />
      <Compile Include="Assets/EffectExamples/Shared/Scripts/ExtinguishableFire.cs" />
      <Compile Include="Assets/EffectExamples/Shared/Scripts/ParticleMenu.cs" />
      <Compile Include="Assets/Enviroment/Standard Assets/ParticleSystems/Scripts/ExplosionFireAndDebris.cs" />
@@ -56,7 +57,7 @@
      <Compile Include="Assets/Scripts/Enemy.cs" />
      <Compile Include="Assets/Enviroment/Standard Assets/ParticleSystems/Scripts/Hose.cs" />
      <Compile Include="Assets/EffectExamples/Shared/Scripts/GunAim.cs" />
-     <Compile Include="Assets/Scripts/SelfDestruct.cs" />
+     <Compile Include="Assets/Scripts/ScoreHandler.cs" />
      <None Include="Assets/Enviroment/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/ThirdPartyNotices.txt" />
      <None Include="Assets/StarSparrow/UpgradeHDRP/UpgradeHDRP.txt" />
      <None Include="Assets/Enviroment/Standard Assets/ParticleSystems/ParticleSystemsGuidelines.txt" />
