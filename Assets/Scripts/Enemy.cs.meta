@@ -3,7 +3,10 @@ guid: ae276ea19bf6940c9b1f6215b2de7b70
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - enemyExplosionVFX: {instanceID: 0}
+  - hitVFX: {instanceID: 0}
+  - parent: {instanceID: 0}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 
