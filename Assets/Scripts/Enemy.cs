@@ -8,9 +8,8 @@ public class Enemy : MonoBehaviour
     [SerializeField] GameObject hitVFX;
     [SerializeField] Transform parent;
     [SerializeField] int addToScore = 2;
-    [SerializeField] int hitsToDie = 3;
+    [SerializeField] int hitPoints = 4;
 
-    int hitCount = 0;
     ScoreHandler updateScore;
 
     void Start() 
@@ -21,25 +20,27 @@ public class Enemy : MonoBehaviour
 
     void OnParticleCollision(GameObject other)
     {
-        IncreaseScore();
-        
-        KillEnemy();
+   
+        ProcessHit();
+        if (hitPoints < 1)
+        {
+            KillEnemy();   
+        } 
     }
 
-    void IncreaseScore()
+    void ProcessHit()
     {
+        GameObject vfx = Instantiate (hitVFX, transform.position, Quaternion.identity);
+        vfx.transform.parent = parent;
+        hitPoints -- ; 
         updateScore.UpdateScore(addToScore);
     }
 
     void KillEnemy()
     {
         GameObject vfx = Instantiate(enemyExplosionVFX, transform.position, Quaternion.identity); // .identity keeps its original rotation values   
-        vfx.transform.parent = parent;
-        hitCount ++ ;  //ver video aula e tentar resolver o bug que o inimigo nave esta explodindo ao runtime
-        if (hitCount >= hitsToDie)
-        {
-            Destroy(gameObject);
-        }
+        vfx.transform.parent = parent; 
+        Destroy(gameObject);
     }
 
 }
