@@ -12,10 +12,16 @@ public class Enemy : MonoBehaviour
 
     ScoreHandler updateScore;
 
-    void Start() 
+    void Start()
     {
-        
+        AddRigidbody();
         updateScore = FindObjectOfType<ScoreHandler>();
+    }
+
+    void AddRigidbody()
+    {
+        Rigidbody rb = gameObject.AddComponent<Rigidbody>();
+        rb.useGravity = false;
     }
 
     void OnParticleCollision(GameObject other)
