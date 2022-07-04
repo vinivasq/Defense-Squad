@@ -340,11 +340,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 7125177988340774128, guid: 71c58b72eff5848b3b4e2897ef6fda92, type: 3}
   m_PrefabInstance: {fileID: 62500761}
   m_PrefabAsset: {fileID: 0}
---- !u!4 &66994977 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 1624375602163467621, guid: 91554e9477ae64cef836dd4cf12da3a1, type: 3}
-  m_PrefabInstance: {fileID: 1624375602205001284}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &82836110
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -687,7 +682,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enemyExplosionVFX: {fileID: 52431495769052739, guid: 7038d2dfd51664a718faf9a3a7aa4621, type: 3}
   hitVFX: {fileID: 6577859929145630728, guid: 9d3cc549b42d640fea6c19bf42b37db5, type: 3}
-  parent: {fileID: 66994977}
   addToScore: 2
   hitPoints: 20
 --- !u!65 &150238272
@@ -1365,6 +1359,71 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 1f7aa4d40edff6e48b549003cad031e1, type: 3}
   m_PrefabInstance: {fileID: 1930359477}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &354663344
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2974581841349215125, guid: e1477e86b4fa2481882a4cdbef509a0f, type: 3}
+      propertyPath: m_Name
+      value: StarSparrow9
+      objectReference: {fileID: 0}
+    - target: {fileID: 2976645025628334367, guid: e1477e86b4fa2481882a4cdbef509a0f, type: 3}
+      propertyPath: m_RootOrder
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 2976645025628334367, guid: e1477e86b4fa2481882a4cdbef509a0f, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 254.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 2976645025628334367, guid: e1477e86b4fa2481882a4cdbef509a0f, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 72.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2976645025628334367, guid: e1477e86b4fa2481882a4cdbef509a0f, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 700.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2976645025628334367, guid: e1477e86b4fa2481882a4cdbef509a0f, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.3135802
+      objectReference: {fileID: 0}
+    - target: {fileID: 2976645025628334367, guid: e1477e86b4fa2481882a4cdbef509a0f, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2976645025628334367, guid: e1477e86b4fa2481882a4cdbef509a0f, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.9495618
+      objectReference: {fileID: 0}
+    - target: {fileID: 2976645025628334367, guid: e1477e86b4fa2481882a4cdbef509a0f, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2976645025628334367, guid: e1477e86b4fa2481882a4cdbef509a0f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2976645025628334367, guid: e1477e86b4fa2481882a4cdbef509a0f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 143.45
+      objectReference: {fileID: 0}
+    - target: {fileID: 2976645025628334367, guid: e1477e86b4fa2481882a4cdbef509a0f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7433915224705910067, guid: e1477e86b4fa2481882a4cdbef509a0f, type: 3}
+      propertyPath: hitVFX
+      value: 
+      objectReference: {fileID: 6577859929145630728, guid: 9d3cc549b42d640fea6c19bf42b37db5, type: 3}
+    - target: {fileID: 7433915224705910067, guid: e1477e86b4fa2481882a4cdbef509a0f, type: 3}
+      propertyPath: enemyExplosionVFX
+      value: 
+      objectReference: {fileID: 52431495769052739, guid: 7038d2dfd51664a718faf9a3a7aa4621, type: 3}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: e1477e86b4fa2481882a4cdbef509a0f, type: 3}
 --- !u!1001 &470466086
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1824,7 +1883,7 @@ PrefabInstance:
     - target: {fileID: 1690378475943858123, guid: e34c4c467fed0465c912aac3be5977e0, type: 3}
       propertyPath: parent
       value: 
-      objectReference: {fileID: 66994977}
+      objectReference: {fileID: 0}
     - target: {fileID: 6612484697761212427, guid: e34c4c467fed0465c912aac3be5977e0, type: 3}
       propertyPath: m_Name
       value: StarSparrow5
@@ -2283,7 +2342,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enemyExplosionVFX: {fileID: 52431495769052739, guid: 7038d2dfd51664a718faf9a3a7aa4621, type: 3}
   hitVFX: {fileID: 6577859929145630728, guid: 9d3cc549b42d640fea6c19bf42b37db5, type: 3}
-  parent: {fileID: 66994977}
   addToScore: 2
   hitPoints: 3
 --- !u!136 &661131300
@@ -2633,7 +2691,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enemyExplosionVFX: {fileID: 52431495769052739, guid: 7038d2dfd51664a718faf9a3a7aa4621, type: 3}
   hitVFX: {fileID: 6577859929145630728, guid: 9d3cc549b42d640fea6c19bf42b37db5, type: 3}
-  parent: {fileID: 66994977}
   addToScore: 5
   hitPoints: 4
 --- !u!136 &927273722
@@ -4772,7 +4829,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enemyExplosionVFX: {fileID: 52431495769052739, guid: 7038d2dfd51664a718faf9a3a7aa4621, type: 3}
   hitVFX: {fileID: 6577859929145630728, guid: 9d3cc549b42d640fea6c19bf42b37db5, type: 3}
-  parent: {fileID: 66994977}
   addToScore: 2
   hitPoints: 3
 --- !u!136 &1880895350
@@ -4850,7 +4906,7 @@ Transform:
   m_LocalScale: {x: 18.034086, y: 18.034086, z: 18.034086}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 13
+  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1885364644
 GameObject:
@@ -5899,6 +5955,10 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1624375602163467620, guid: 91554e9477ae64cef836dd4cf12da3a1, type: 3}
       propertyPath: m_Name
+      value: Runtime Spawner
+      objectReference: {fileID: 0}
+    - target: {fileID: 1624375602163467620, guid: 91554e9477ae64cef836dd4cf12da3a1, type: 3}
+      propertyPath: m_TagString
       value: Runtime Spawner
       objectReference: {fileID: 0}
     - target: {fileID: 1624375602163467621, guid: 91554e9477ae64cef836dd4cf12da3a1, type: 3}
