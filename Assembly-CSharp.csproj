@@ -53,6 +53,8 @@
      <Compile Include="Assets/Scripts/PlayerControls.cs" />
      <Compile Include="Assets/Enviroment/Standard Assets/ParticleSystems/Scripts/ParticleSystemMultiplier.cs" />
      <Compile Include="Assets/Scripts/ScoreHandler.cs" />
+     <Compile Include="Assets/Scripts/Projectile.cs" />
+     <Compile Include="Assets/Scripts/ShootingEnemy.cs" />
      <Compile Include="Assets/Enviroment/Standard Assets/ParticleSystems/Scripts/WaterHoseParticles.cs" />
      <Compile Include="Assets/Scripts/CollisionHandler.cs" />
      <Compile Include="Assets/Scripts/Enemy.cs" />

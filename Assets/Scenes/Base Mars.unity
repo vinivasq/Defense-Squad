@@ -684,6 +684,9 @@ MonoBehaviour:
   hitVFX: {fileID: 6577859929145630728, guid: 9d3cc549b42d640fea6c19bf42b37db5, type: 3}
   addToScore: 2
   hitPoints: 20
+  enemySpeed: 0
+  stoppingDistance: 0
+  retreatDistance: 0
 --- !u!65 &150238272
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1884,6 +1887,18 @@ PrefabInstance:
       propertyPath: parent
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 1690378475943858123, guid: e34c4c467fed0465c912aac3be5977e0, type: 3}
+      propertyPath: enemySpeed
+      value: 40
+      objectReference: {fileID: 0}
+    - target: {fileID: 1690378475943858123, guid: e34c4c467fed0465c912aac3be5977e0, type: 3}
+      propertyPath: retreatDistance
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1690378475943858123, guid: e34c4c467fed0465c912aac3be5977e0, type: 3}
+      propertyPath: stoppingDistance
+      value: 20
+      objectReference: {fileID: 0}
     - target: {fileID: 6612484697761212427, guid: e34c4c467fed0465c912aac3be5977e0, type: 3}
       propertyPath: m_Name
       value: StarSparrow5
@@ -2344,6 +2359,9 @@ MonoBehaviour:
   hitVFX: {fileID: 6577859929145630728, guid: 9d3cc549b42d640fea6c19bf42b37db5, type: 3}
   addToScore: 2
   hitPoints: 3
+  enemySpeed: 0
+  stoppingDistance: 0
+  retreatDistance: 0
 --- !u!136 &661131300
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -2693,6 +2711,9 @@ MonoBehaviour:
   hitVFX: {fileID: 6577859929145630728, guid: 9d3cc549b42d640fea6c19bf42b37db5, type: 3}
   addToScore: 5
   hitPoints: 4
+  enemySpeed: 0
+  stoppingDistance: 0
+  retreatDistance: 0
 --- !u!136 &927273722
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -4831,6 +4852,9 @@ MonoBehaviour:
   hitVFX: {fileID: 6577859929145630728, guid: 9d3cc549b42d640fea6c19bf42b37db5, type: 3}
   addToScore: 2
   hitPoints: 3
+  enemySpeed: 0
+  stoppingDistance: 0
+  retreatDistance: 0
 --- !u!136 &1880895350
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -6191,6 +6215,14 @@ PrefabInstance:
     - target: {fileID: 2751581697279752606, guid: bf62f98858f0c4ad998dec4dbeb708d2, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7869157631201914902, guid: bf62f98858f0c4ad998dec4dbeb708d2, type: 3}
+      propertyPath: m_Name
+      value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 7869157631201914902, guid: bf62f98858f0c4ad998dec4dbeb708d2, type: 3}
+      propertyPath: m_TagString
+      value: Player
       objectReference: {fileID: 0}
     - target: {fileID: 8830798417053683083, guid: bf62f98858f0c4ad998dec4dbeb708d2, type: 3}
       propertyPath: m_LocalRotation.w

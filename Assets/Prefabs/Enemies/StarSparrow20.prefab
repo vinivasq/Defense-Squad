@@ -55,7 +55,8 @@ GameObject:
   - component: {fileID: 873179820294975424}
   - component: {fileID: 4301487394914803813}
   - component: {fileID: 2041543191075181743}
-  - component: {fileID: 5569366631499512060}
+  - component: {fileID: 1865390199}
+  - component: {fileID: 1865390203}
   m_Layer: 0
   m_Name: StarSparrow20
   m_TagString: Untagged
@@ -127,7 +128,26 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &5569366631499512060
+--- !u!95 &1865390199
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 528602065120327034}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &1865390203
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -136,14 +156,15 @@ MonoBehaviour:
   m_GameObject: {fileID: 528602065120327034}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ae276ea19bf6940c9b1f6215b2de7b70, type: 3}
+  m_Script: {fileID: 11500000, guid: b80643b13c69c40c184bc6a123105de6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   enemyExplosionVFX: {fileID: 52431495769052739, guid: 7038d2dfd51664a718faf9a3a7aa4621, type: 3}
   hitVFX: {fileID: 6577859929145630728, guid: 9d3cc549b42d640fea6c19bf42b37db5, type: 3}
-  parent: {fileID: 0}
   addToScore: 2
   hitPoints: 4
+  startTimeBtwShots: 1
+  projectile: {fileID: 5878282672813056478, guid: 3dc501cc75c06422690fe6a37dbeb4ee, type: 3}
 --- !u!1 &696162122407047231
 GameObject:
   m_ObjectHideFlags: 0
