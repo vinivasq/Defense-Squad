@@ -7,7 +7,7 @@ public class PlayerControls : MonoBehaviour
 {
     [Header ("General Movemet Settings")]
     [Tooltip ("Speed factor for how fast the ship moves based uppon player input")]
-    [SerializeField] float controlSpeed = 60f; 
+    [SerializeField] float controlSpeed = 40f; 
     [Tooltip("Screen limits for how far the ship goes on the X axis ")]
     [SerializeField] float xRange = 26f;
     [Tooltip("Screen limits for how far the ship goes on the Y axis ")]
