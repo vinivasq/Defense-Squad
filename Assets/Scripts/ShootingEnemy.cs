@@ -34,14 +34,21 @@ public class ShootingEnemy : MonoBehaviour
     {
         if (timeBtwShots <= 0)
         {
-            GameObject shot = Instantiate(projectile, transform.position, Quaternion.identity);
-            shot.transform.parent = parentGameObject.transform;
-            timeBtwShots = startTimeBtwShots;
+            InstantiateLaser();
         }
         else
         {
             timeBtwShots -= Time.deltaTime;
         }
+    }
+
+    private void InstantiateLaser()
+    {
+        Quaternion laserQuaternion = new Quaternion();
+        laserQuaternion.Set(1, 0, 0, 1);
+        GameObject shot = Instantiate(projectile, transform.position, laserQuaternion);
+        shot.transform.parent = parentGameObject.transform;
+        timeBtwShots = startTimeBtwShots;
     }
 
     void AddRigidbody()

@@ -137,7 +137,7 @@ PrefabInstance:
     - target: {fileID: 1865390203, guid: 2c7ff6d64a7d84743b6f6b61675a3b0b, type: 3}
       propertyPath: projectile
       value: 
-      objectReference: {fileID: 7469781404379637573, guid: 3dc501cc75c06422690fe6a37dbeb4ee, type: 3}
+      objectReference: {fileID: 4211429932213064227, guid: 60ca3fee1b33a49bea219e7ed97009c2, type: 3}
     - target: {fileID: 528602065120327034, guid: 2c7ff6d64a7d84743b6f6b61675a3b0b, type: 3}
       propertyPath: m_Name
       value: StarSparrow20

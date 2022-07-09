@@ -16,11 +16,16 @@ public class Projectile : MonoBehaviour
 
     void Update()
     {
-        transform.position = Vector3.MoveTowards(transform.position, target, projectileSpeed * Time.deltaTime); //depois que troquei o projetil pra sphere ta se comportando estranho, não vem na minha direção mais 
+        transform.position = Vector3.MoveTowards(transform.position, target, projectileSpeed * Time.deltaTime);
         if (transform.position == target)
         {
             Destroy(gameObject);
         }
+    }
+
+    private void OnTriggerEnter(Collider other) 
+    {
+        Destroy(gameObject);
     }
 
    
