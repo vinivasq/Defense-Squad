@@ -45,7 +45,7 @@ public class ShootingEnemy : MonoBehaviour
     private void InstantiateLaser()
     {
         Quaternion laserQuaternion = new Quaternion();
-        laserQuaternion.Set(1, 0, 0, 1);
+        laserQuaternion.Set(1, 1, 1, 1);
         GameObject shot = Instantiate(projectile, transform.position, laserQuaternion);
         shot.transform.parent = parentGameObject.transform;
         timeBtwShots = startTimeBtwShots;
